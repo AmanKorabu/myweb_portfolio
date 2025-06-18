@@ -21,14 +21,14 @@ const Home = () => {
   
       <div class="card">
         <div className='main'>
-        <p>I'am</p>
         <div class="loader">
+        <p>I'am....</p>
           <div class="words">
             <span class="word">Designer</span>
             <span class="word">Designer</span>
             <span class="word">Developer</span>
             <span class="word">Web Enthusiast</span>
-            <span class="word">Problem solver Coder</span>
+            <span class="word">Problem solver</span>
             <span class="word">React Developer</span>
           </div>
         </div>
