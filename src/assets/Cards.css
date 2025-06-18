@@ -1,0 +1,63 @@
+.contact-card {
+  max-width: 1250px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #3b393968;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-card h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #f2eded;
+}
+
+.contact-card p {
+  color: #c8c5c5;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #555;
+  padding: 12px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon:hover {
+  transform: scale(1.15);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp {
+  color: #25D366;
+  background-color: #e8f5e9;
+}
+
+.instagram {
+  color: #E1306C;
+  background-color: #fce4ec;
+}
+
+.linkedin {
+  color: #0077B5;
+  background-color: #e3f2fd;
+}
+
+.github {
+  color: #333;
+  background-color: #eeeeee;
+}
+
