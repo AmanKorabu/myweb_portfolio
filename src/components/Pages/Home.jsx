@@ -22,7 +22,7 @@ const Home = () => {
       <div class="card">
         <div className='main'>
         <div class="loader">
-          <p>I'm-</p>
+        
           <div class="words">
             <span class="word">Developer</span>
             <span class="word">Designer</span>
