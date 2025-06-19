@@ -43,8 +43,8 @@ function ContactMe() {
                         <div></div>
                     </div>
                 </button>
+            <span className='result-message'>{result}</span>
             </form>
-            <span>{result}</span>
             <div className="contact-right">
             <img src={img} alt="contact-img" />
             </div>
