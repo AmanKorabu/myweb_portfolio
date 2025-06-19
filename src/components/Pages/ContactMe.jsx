@@ -34,9 +34,9 @@ function ContactMe() {
                     <h2>Get in touch with me:</h2>
 
                 </div>
-                <input type="text" placeholder='your name please' className='contact-inputs' required />
-                <input type="text" placeholder='your Email please' className='contact-inputs' required />
-                <textarea name="message" id="txtS" placeholder='Your message please' className='contact-inputs' required></textarea>
+                <input type="text" name='name' placeholder='your name please' className='contact-inputs' required />
+                <input type="text" name='email' placeholder='your Email please' className='contact-inputs' required />
+                <textarea name="message"  placeholder='Your message please' className='contact-inputs' required></textarea>
                 <button class="button">
                     Get in touch
                     <div class="hoverEffect">
