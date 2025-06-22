@@ -8,6 +8,7 @@ import './assets/Home.css'
 import './assets/Cards.css'
 import './assets/Education.css'
 import './assets/Contactme.css'
+import './assets/resume.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

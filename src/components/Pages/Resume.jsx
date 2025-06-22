@@ -1,0 +1,12 @@
+import React from 'react'
+import resume from '../../assets/rezume.pdf (2).pdf'
+function Resume() {
+  return (
+<a href={resume}><button class="shadow__btn" >
+    Resume
+</button></a>
+
+  )
+}
+
+export default Resume

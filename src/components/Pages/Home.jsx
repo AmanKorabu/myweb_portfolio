@@ -7,6 +7,7 @@ import Skills from './Skills'
 import Certificate from './Certificate'
 // import Contact from './Contact'
 import Footer from './Footer'
+import Resume from './Resume'
 const Home = () => {
   return (
     <div>
@@ -32,6 +33,7 @@ const Home = () => {
             <span class="word">React Developer</span>
           </div>
         </div>
+          <Resume/>
       </div>
     </div>
     </div> 
