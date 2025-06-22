@@ -6,6 +6,8 @@ import { FaJs } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { AiOutlineOpenAI } from "react-icons/ai";
+import { DiDjango } from "react-icons/di";
+import py from '../images/python.png';
 
 function Skills() {
     return (
@@ -25,6 +27,8 @@ function Skills() {
                     <FaBootstrap size={80} color=' #7952B3' className='bootstraps' />
                 </div>
                 <AiOutlineOpenAI size={80} color='rgb(64, 60, 70)' className='openai-logo' />
+                <img src={py} size={60} color='rgb(34, 95, 5)' className='python-logo' height={'82px'}  width={'82px'}/>
+                <DiDjango size={80} color='rgb(98, 167, 66)' className='django-logo' />
                 </div>
         </div>
     )
