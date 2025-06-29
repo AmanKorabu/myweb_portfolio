@@ -41,13 +41,13 @@ function Projects() {
       </div>
       <div className='prs' >
         {projectList.map((proj, index) => (
-          <NavLink to={proj.url} target="_blank">
+          
             <div
               className="book"
               key={index}>
               <h3>{proj.title}</h3>
               <p>{proj.description}</p>
-              <button type="button" class="btn3">
+              <NavLink to={proj.url} target="_blank"><button type="button" class="btn3">
                 <strong>Click to Visit</strong>
                 <div id="container-stars">
                   <div id="stars"></div>
@@ -57,7 +57,7 @@ function Projects() {
                   <div class="circle"></div>
                   <div class="circle"></div>
                 </div>
-              </button>
+              </button></NavLink>
               <div className="cover" style={{
                 backgroundImage: `url(${proj.image})`,
                 backgroundSize: 'cover',
@@ -66,7 +66,7 @@ function Projects() {
               }} >
               </div>
             </div>
-          </NavLink>
+          
         ))}
 
       </div>
