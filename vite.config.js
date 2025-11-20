@@ -1,10 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: true,
+  build: {
+    minify: 'esbuild', // fastest minifier
+    sourcemap: false,   // don’t generate sourcemaps for production
+    target: 'esnext',
+    rollupOptions: {
+      output: {
+        manualChunks: undefined // avoid splitting too many small chunks
+      }
+    }
   }
-})
+});

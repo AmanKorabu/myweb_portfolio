@@ -1,5 +1,5 @@
 import React from 'react'
-import Profimg from '../images/WhatsApp Image 2025-06-17 at 20.05.06_3b64f5c6.jpg'
+import Profimg from '../images/certificates/WhatsApp Image 2025-11-20 at 11.38.20_15a17c96.jpg'
 import Projects from './Projects'
 
 
