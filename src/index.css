@@ -7,6 +7,16 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+html,
+body {
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
 /* Header/Navbar */
 header {
   display: flex;
@@ -14,7 +24,7 @@ header {
   padding: 2px;
   color: rgb(29, 27, 27);
   background-color: rgba(56, 55, 55, 0.471);
-  
+
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -32,9 +42,10 @@ header nav {
   font-size: 1.2rem;
   flex-wrap: wrap;
   justify-content: center;
- 
+
 }
-.active{
+
+.active {
   color: #00e0c3;
 }
 
@@ -42,7 +53,7 @@ nav a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: color 0.3s ease;
- font-weight: 500;
+  font-weight: 500;
   padding: 5px 10px;
   border-radius: 6px;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
@@ -99,7 +110,7 @@ nav a:hover {
   padding: 1.5rem;
   width: 250px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
@@ -116,9 +127,12 @@ nav a:hover {
   flex-direction: column;
   gap: 1rem;
 }
-.hamburg{
-  display: none;;
+
+.hamburg {
+  display: none;
+  ;
 }
+
 .contact input,
 .contact textarea {
   padding: 10px;
@@ -145,45 +159,50 @@ nav a:hover {
 /* ===================== */
 
 @media screen and (max-width: 768px) {
-  .hamburg{
+  .hamburg {
     display: block;
-    
+
   }
- 
+
   header {
     gap: 20px;
     text-align: center;
     /* display: flex; */
   }
 
-   .web {
+  .web {
     display: none;
     flex-direction: column;
     /* gap: 15px; */
   }
-nav a{
-   padding: 10px;
-}
-.mobile {
-  
-  position: absolute;
-  top: 4.4rem;
-  /* left: ; */
-  /* right: 0; */
-  width: 100%;
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
 
-  /* 🔁 Changed this part */
-  background-color: rgba(186, 186, 186, 0.1); /* Transparent white */
-  backdrop-filter: blur(10px); /* Blur effect */
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  nav a {
+    padding: 10px;
+  }
 
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  .mobile {
+
+    position: absolute;
+    top: 4.4rem;
+    /* left: ; */
+    /* right: 0; */
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    /* 🔁 Changed this part */
+    background-color: rgba(186, 186, 186, 0.1);
+    /* Transparent white */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    /* Safari support */
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
 
   .home h1 {
     font-size: 2.2rem;
@@ -193,19 +212,22 @@ nav a{
     width: 100%;
     max-width: 90%;
   }
-  .prs{
+
+  .prs {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px;
   }
 }
+
 /* projects */
-.prs{
+.prs {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   gap: 20px;
 }
+
 .book {
   border: 2px solid white;
   position: relative;
@@ -232,7 +254,8 @@ nav a{
   color: #000;
   flex-direction: column;
 }
-.prs a{
+
+.prs a {
   text-decoration: none;
 }
 
@@ -269,10 +292,12 @@ nav a{
   -ms-transform: rotatey(-85deg);
   transform: rotatey(-85deg);
 }
-.book p{
+
+.book p {
   margin: 2em;
 
 }
+
 /* button of project */
 .btn3 {
   display: flex;
@@ -289,13 +314,11 @@ nav a{
   animation: gradient_301 5s ease infinite;
   border: double 4px transparent;
   background-image: linear-gradient(#212121, #212121),
-    linear-gradient(
-      137.48deg,
+    linear-gradient(137.48deg,
       #ffdb3b 10%,
       #fe53bb 45%,
       #8f51ea 67%,
-      #0044ff 87%
-    );
+      #0044ff 87%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -450,8 +473,3 @@ strong {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-
-
-
-
-
